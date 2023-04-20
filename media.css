@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    background-color: black;
+    color: white;
+}
+h1 {
+    background-color: rgba(105, 105, 105, 0.342);
+    text-align: center;
+}
+h1:hover {
+    background-color: slategray;
+    text-align: center;
+    color: goldenrod;
+}
+h2 {
+    color: goldenrod;
+    text-align: center;
+}
+
+#p1:hover{
+    background-color: rgba(105, 105, 105, 0.712);
+    color: goldenrod;
+}
+@media (max-width: 500px){
+    h1{
+        background-color: brown ;
+    }
+    h2{
+        color: crimson;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+@media(min-width: 600px){
+    p{
+        font-size: 20px;
+        background-color: darkgrey;
+    }
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    color:darkred ;
+}
+.float{
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.fundo{
+    background-color: silver;
+    list-style-type: none;
+    border: 1px solid crimson;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    background-color: black;
+    color: silver;
+    font-size: 25px;
+}
+.text1{
+    background-color: crimson;
+}
+
+.fundo li{
+    padding: 20px;
+    border-bottom: 20px solid gray;
+    text-align: center;
+}
+.botao{
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+@media (max-width: 500px) {
+    .float{
+        width: 100%;
+    }
+}

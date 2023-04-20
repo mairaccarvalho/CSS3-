@@ -1,0 +1,20 @@
+*{
+    background-color: black;
+    color: white;
+}
+.p1::after {
+    content: ' Leia Mais...';
+}
+
+.p2::before {
+    content: ' Valor...';
+}
+
+.p3::selection {
+    background-color: green;
+    color: pink;
+}
+p::first-letter{
+    color: crimson;
+    font-size: 60px;
+}

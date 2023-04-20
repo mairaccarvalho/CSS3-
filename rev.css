@@ -1,0 +1,25 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: white;
+}
+#nome:focus{
+    background-color: black;
+    color: white;
+    
+}
+#nome{
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+a:link{
+    color: blue;
+}
+a:active{
+    color: violet;
+
+}
+a:visited{
+    color: brown;
+}

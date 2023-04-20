@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.conteiner {
+    text-align: center;
+    background-color: silver;
+}
+.anima {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.anima:hover {
+    animation: movimento 1s;
+}
+@keyframes movimento {
+    0% {
+        transform: translateX(0px);
+    }
+    30% {
+        transform: translateX(30px);
+    }
+    60% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

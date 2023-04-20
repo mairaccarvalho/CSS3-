@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: cursive;
+    color: blue;
+    text-align: justify;
+}
+
+#img {
+    float: right;
+    width: 400px;
+    border-radius: 50px;
+}
+
+p:hover {
+    background-color: honeydew;
+    color: goldenrod;
+}
+@media (max-width: 500px) {
+    body {
+        background-color: black;
+    }
+    p {
+        font-size: 1.5em;
+        color: crimson;
+    }
+    img {
+        display: none;
+    }
+    h1 {
+        color: goldenrod;
+    }
+}
+@media (min-width: 800px) {
+    body {
+        background-color: silver;
+    }
+    h1 {
+        color: brown;
+        background-color: dimgrey;
+        font-size: 20px;
+    }
+}
